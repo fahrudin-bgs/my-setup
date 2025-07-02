@@ -64,3 +64,14 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+setup laravel + filament 
+untuk instalasi 
+Clone repo ini dan buat database pada server lokal/cloud
+Salin file .env.example menjadi .env
+Sesuaikan setting database dan informasi lainnya pada .env yang telah ada salin tadi
+Lalu jalankan "composer install" pada terminal
+Setelah itu jalankan "php artisan key:generate"
+Kemudian jalankan "php artisan migrate:fresh --seed"
+login dengan menggunakan credential email : admin@mysetup.com password : password123
+
